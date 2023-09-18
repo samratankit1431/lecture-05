@@ -1,0 +1,52 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    margin: auto;
+    width: 85%;
+}
+
+h2{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container .card{
+    height: 400px;
+    width: 350px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container .card img{
+    height: 200px;
+    width: 100%;
+    object-fit:cover;
+}
+
+.container .card .date-category{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.container .card .sub-heading{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.container .card .content{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0;
+}
